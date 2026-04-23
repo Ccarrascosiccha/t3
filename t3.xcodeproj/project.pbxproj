@@ -81,6 +81,15 @@
 			);
 			sourceTree = "<group>";
 		};
+			B57CE3922F9AB4CD0045E082 = {
+				isa = PBXGroup;
+				children = (
+					B57CE3E52F9AB8930045E082 /* Model.xcdatamodeld */,
+					B57CE39D2F9AB4CD0045E082 /* t3 */,
+					B57CE39C2F9AB4CD0045E082 /* Products */,
+				);
+				sourceTree = "<group>";
+			};
 		B57CE39C2F9AB4CD0045E082 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +150,7 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
