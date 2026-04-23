@@ -8,11 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		B57CE3E72F9AB8930045E082 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B57CE3E52F9AB8930045E082 /* Model.xcdatamodeld */; };
+		B57CE43C2F9AC7720045E082 /* BMIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CE4202F9AC7720045E082 /* BMIHelper.swift */; };
+		B57CE43D2F9AC7720045E082 /* MedicalRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CE4222F9AC7720045E082 /* MedicalRecord.swift */; };
+		B57CE43E2F9AC7720045E082 /* MedicalRecordRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CE4242F9AC7720045E082 /* MedicalRecordRepository.swift */; };
+		B57CE43F2F9AC7720045E082 /* AddRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CE4262F9AC7720045E082 /* AddRecordViewController.swift */; };
+		B57CE4402F9AC7720045E082 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CE4272F9AC7720045E082 /* DetailViewController.swift */; };
+		B57CE4412F9AC7720045E082 /* MedicalListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CE4282F9AC7720045E082 /* MedicalListViewController.swift */; };
+		B57CE4422F9AC7720045E082 /* AddRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CE42A2F9AC7720045E082 /* AddRecordView.swift */; };
+		B57CE4432F9AC7720045E082 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CE42B2F9AC7720045E082 /* DetailView.swift */; };
+		B57CE4442F9AC7720045E082 /* MedicalRecordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CE42C2F9AC7720045E082 /* MedicalRecordCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B57CE39B2F9AB4CD0045E082 /* t3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = t3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B57CE3E62F9AB8930045E082 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		B57CE4202F9AC7720045E082 /* BMIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIHelper.swift; sourceTree = "<group>"; };
+		B57CE4222F9AC7720045E082 /* MedicalRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalRecord.swift; sourceTree = "<group>"; };
+		B57CE4242F9AC7720045E082 /* MedicalRecordRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalRecordRepository.swift; sourceTree = "<group>"; };
+		B57CE4262F9AC7720045E082 /* AddRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecordViewController.swift; sourceTree = "<group>"; };
+		B57CE4272F9AC7720045E082 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B57CE4282F9AC7720045E082 /* MedicalListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalListViewController.swift; sourceTree = "<group>"; };
+		B57CE42A2F9AC7720045E082 /* AddRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecordView.swift; sourceTree = "<group>"; };
+		B57CE42B2F9AC7720045E082 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		B57CE42C2F9AC7720045E082 /* MedicalRecordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalRecordCell.swift; sourceTree = "<group>"; };
+		B57CE4492F9AC7810045E082 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PersistenceController.swift; path = t3/PersistenceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -64,6 +83,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B57CE43C2F9AC7720045E082 /* BMIHelper.swift in Sources */,
+				B57CE43D2F9AC7720045E082 /* MedicalRecord.swift in Sources */,
+				B57CE43E2F9AC7720045E082 /* MedicalRecordRepository.swift in Sources */,
+				B57CE43F2F9AC7720045E082 /* AddRecordViewController.swift in Sources */,
+				B57CE4402F9AC7720045E082 /* DetailViewController.swift in Sources */,
+				B57CE4412F9AC7720045E082 /* MedicalListViewController.swift in Sources */,
+				B57CE4422F9AC7720045E082 /* AddRecordView.swift in Sources */,
+				B57CE4432F9AC7720045E082 /* DetailView.swift in Sources */,
+				B57CE4442F9AC7720045E082 /* MedicalRecordCell.swift in Sources */,
 				B57CE3E72F9AB8930045E082 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
