@@ -66,21 +66,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B57CE3922F9AB4CD0045E082 = {
-			isa = PBXGroup;
-			children = (
-				B57CE3E52F9AB8930045E082 /* Model.xcdatamodeld */,
-				B57CE3C82F9AB7050045E082 /* Views */,
-				B57CE3C72F9AB6FC0045E082 /* ViewControllers */,
-				B57CE3C62F9AB6F40045E082 /* Respositories */,
-				B57CE3C52F9AB6ED0045E082 /* Persistence */,
-				B57CE3C42F9AB6E50045E082 /* Models */,
-				B57CE3C32F9AB6BA0045E082 /* Helpers */,
-				B57CE39D2F9AB4CD0045E082 /* t3 */,
-				B57CE39C2F9AB4CD0045E082 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
+			B57CE3922F9AB4CD0045E082 = {
+				isa = PBXGroup;
+				children = (
+					B57CE3E52F9AB8930045E082 /* Model.xcdatamodeld */,
+					B57CE39D2F9AB4CD0045E082 /* t3 */,
+					B57CE39C2F9AB4CD0045E082 /* Products */,
+				);
+				sourceTree = "<group>";
+			};
 		B57CE39C2F9AB4CD0045E082 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,58 +83,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B57CE3C32F9AB6BA0045E082 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				B57CE4202F9AC7720045E082 /* BMIHelper.swift */,
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		B57CE3C42F9AB6E50045E082 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				B57CE4222F9AC7720045E082 /* MedicalRecord.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		B57CE3C52F9AB6ED0045E082 /* Persistence */ = {
-			isa = PBXGroup;
-			children = (
-				B57CE4492F9AC7810045E082 /* PersistenceController.swift */,
-			);
-			path = Persistence;
-			sourceTree = "<group>";
-		};
-		B57CE3C62F9AB6F40045E082 /* Respositories */ = {
-			isa = PBXGroup;
-			children = (
-				B57CE4242F9AC7720045E082 /* MedicalRecordRepository.swift */,
-			);
-			path = Respositories;
-			sourceTree = "<group>";
-		};
-		B57CE3C72F9AB6FC0045E082 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				B57CE4262F9AC7720045E082 /* AddRecordViewController.swift */,
-				B57CE4272F9AC7720045E082 /* DetailViewController.swift */,
-				B57CE4282F9AC7720045E082 /* MedicalListViewController.swift */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		B57CE3C82F9AB7050045E082 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				B57CE42A2F9AC7720045E082 /* AddRecordView.swift */,
-				B57CE42B2F9AC7720045E082 /* DetailView.swift */,
-				B57CE42C2F9AC7720045E082 /* MedicalRecordCell.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
+
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
