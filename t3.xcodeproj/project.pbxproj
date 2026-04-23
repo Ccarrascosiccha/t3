@@ -3,16 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		B57CE3E72F9AB8930045E082 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B57CE3E52F9AB8930045E082 /* Model.xcdatamodeld */; };
+		B57CE43C2F9AC7720045E082 /* BMIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CE4202F9AC7720045E082 /* BMIHelper.swift */; };
+		B57CE43D2F9AC7720045E082 /* MedicalRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CE4222F9AC7720045E082 /* MedicalRecord.swift */; };
+		B57CE43E2F9AC7720045E082 /* MedicalRecordRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CE4242F9AC7720045E082 /* MedicalRecordRepository.swift */; };
+		B57CE43F2F9AC7720045E082 /* AddRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CE4262F9AC7720045E082 /* AddRecordViewController.swift */; };
+		B57CE4402F9AC7720045E082 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CE4272F9AC7720045E082 /* DetailViewController.swift */; };
+		B57CE4412F9AC7720045E082 /* MedicalListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CE4282F9AC7720045E082 /* MedicalListViewController.swift */; };
+		B57CE4422F9AC7720045E082 /* AddRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CE42A2F9AC7720045E082 /* AddRecordView.swift */; };
+		B57CE4432F9AC7720045E082 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CE42B2F9AC7720045E082 /* DetailView.swift */; };
+		B57CE4442F9AC7720045E082 /* MedicalRecordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CE42C2F9AC7720045E082 /* MedicalRecordCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B57CE39B2F9AB4CD0045E082 /* t3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = t3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B57CE3E62F9AB8930045E082 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		B57CE4202F9AC7720045E082 /* BMIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIHelper.swift; sourceTree = "<group>"; };
+		B57CE4222F9AC7720045E082 /* MedicalRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalRecord.swift; sourceTree = "<group>"; };
+		B57CE4242F9AC7720045E082 /* MedicalRecordRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalRecordRepository.swift; sourceTree = "<group>"; };
+		B57CE4262F9AC7720045E082 /* AddRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecordViewController.swift; sourceTree = "<group>"; };
+		B57CE4272F9AC7720045E082 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B57CE4282F9AC7720045E082 /* MedicalListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalListViewController.swift; sourceTree = "<group>"; };
+		B57CE42A2F9AC7720045E082 /* AddRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecordView.swift; sourceTree = "<group>"; };
+		B57CE42B2F9AC7720045E082 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		B57CE42C2F9AC7720045E082 /* MedicalRecordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalRecordCell.swift; sourceTree = "<group>"; };
+		B57CE4492F9AC7810045E082 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PersistenceController.swift; path = t3/PersistenceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -51,17 +70,26 @@
 			isa = PBXGroup;
 			children = (
 				B57CE3E52F9AB8930045E082 /* Model.xcdatamodeld */,
-				B57CE3C82F9AB7050045E082 /* Views */,
-				B57CE3C72F9AB6FC0045E082 /* ViewControllers */,
-				B57CE3C62F9AB6F40045E082 /* Respositories */,
-				B57CE3C52F9AB6ED0045E082 /* Persistence */,
-				B57CE3C42F9AB6E50045E082 /* Models */,
-				B57CE3C32F9AB6BA0045E082 /* Helpers */,
 				B57CE39D2F9AB4CD0045E082 /* t3 */,
 				B57CE39C2F9AB4CD0045E082 /* Products */,
+				B57CE3C32F9AB6BA0045E082 /* Helpers */,
+				B57CE3C42F9AB6E50045E082 /* Models */,
+				B57CE3C52F9AB6ED0045E082 /* Persistence */,
+				B57CE3C62F9AB6F40045E082 /* Respositories */,
+				B57CE3C72F9AB6FC0045E082 /* ViewControllers */,
+				B57CE3C82F9AB7050045E082 /* Views */,
 			);
 			sourceTree = "<group>";
 		};
+			B57CE3922F9AB4CD0045E082 = {
+				isa = PBXGroup;
+				children = (
+					B57CE3E52F9AB8930045E082 /* Model.xcdatamodeld */,
+					B57CE39D2F9AB4CD0045E082 /* t3 */,
+					B57CE39C2F9AB4CD0045E082 /* Products */,
+				);
+				sourceTree = "<group>";
+			};
 		B57CE39C2F9AB4CD0045E082 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +101,7 @@
 		B57CE3C32F9AB6BA0045E082 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				B57CE4202F9AC7720045E082 /* BMIHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -80,6 +109,7 @@
 		B57CE3C42F9AB6E50045E082 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B57CE4222F9AC7720045E082 /* MedicalRecord.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -87,6 +117,7 @@
 		B57CE3C52F9AB6ED0045E082 /* Persistence */ = {
 			isa = PBXGroup;
 			children = (
+				B57CE4492F9AC7810045E082 /* PersistenceController.swift */,
 			);
 			path = Persistence;
 			sourceTree = "<group>";
@@ -94,6 +125,7 @@
 		B57CE3C62F9AB6F40045E082 /* Respositories */ = {
 			isa = PBXGroup;
 			children = (
+				B57CE4242F9AC7720045E082 /* MedicalRecordRepository.swift */,
 			);
 			path = Respositories;
 			sourceTree = "<group>";
@@ -101,6 +133,9 @@
 		B57CE3C72F9AB6FC0045E082 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				B57CE4262F9AC7720045E082 /* AddRecordViewController.swift */,
+				B57CE4272F9AC7720045E082 /* DetailViewController.swift */,
+				B57CE4282F9AC7720045E082 /* MedicalListViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -108,10 +143,14 @@
 		B57CE3C82F9AB7050045E082 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B57CE42A2F9AC7720045E082 /* AddRecordView.swift */,
+				B57CE42B2F9AC7720045E082 /* DetailView.swift */,
+				B57CE42C2F9AC7720045E082 /* MedicalRecordCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
+
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,7 +200,7 @@
 			);
 			mainGroup = B57CE3922F9AB4CD0045E082;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
+			preferredProjectObjectVersion = 56;
 			productRefGroup = B57CE39C2F9AB4CD0045E082 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -186,6 +225,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B57CE43C2F9AC7720045E082 /* BMIHelper.swift in Sources */,
+				B57CE43D2F9AC7720045E082 /* MedicalRecord.swift in Sources */,
+				B57CE43E2F9AC7720045E082 /* MedicalRecordRepository.swift in Sources */,
+				B57CE43F2F9AC7720045E082 /* AddRecordViewController.swift in Sources */,
+				B57CE4402F9AC7720045E082 /* DetailViewController.swift in Sources */,
+				B57CE4412F9AC7720045E082 /* MedicalListViewController.swift in Sources */,
+				B57CE4422F9AC7720045E082 /* AddRecordView.swift in Sources */,
+				B57CE4432F9AC7720045E082 /* DetailView.swift in Sources */,
+				B57CE4442F9AC7720045E082 /* MedicalRecordCell.swift in Sources */,
 				B57CE3E72F9AB8930045E082 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,10 +263,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.t3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -246,10 +291,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.t3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -307,7 +349,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -364,7 +406,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
