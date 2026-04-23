@@ -23,7 +23,7 @@ class MedicalListViewController: UIViewController {
     private var records: [MedicalRecord] = []
 
     private var viewContext: NSManagedObjectContext {
-        (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        PersistenceController.shared.viewContext
     }
 
     override func viewDidLoad() {
@@ -117,7 +117,7 @@ class AddRecordViewController: UIViewController {
     private let commentField = UITextField()
 
     private var viewContext: NSManagedObjectContext {
-        (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        PersistenceController.shared.viewContext
     }
 
     override func viewDidLoad() {
@@ -187,12 +187,8 @@ class AddRecordViewController: UIViewController {
         record.comment = commentField.text ?? ""
         record.createdAt = Date()
 
-        do {
-            try viewContext.save()
-            showAlert(title: "Registro correcto", message: "Su registro de control médico se realizó correctamente.", popOnDismiss: true)
-        } catch {
-            showAlert(title: "Error", message: "No se pudo guardar el registro.")
-        }
+        PersistenceController.shared.save()
+        showAlert(title: "Registro correcto", message: "Su registro de control médico se realizó correctamente.", popOnDismiss: true)
     }
 
     private func showAlert(title: String, message: String, popOnDismiss: Bool = false) {
@@ -209,7 +205,7 @@ class DetailViewController: UIViewController {
     private let textView = UITextView()
 
     private var viewContext: NSManagedObjectContext {
-        (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        PersistenceController.shared.viewContext
     }
 
     init(record: MedicalRecord) {
@@ -296,12 +292,8 @@ class DetailViewController: UIViewController {
         alert.addAction(UIAlertAction(title: "Eliminar", style: .destructive) { [weak self] _ in
             guard let self else { return }
             self.viewContext.delete(self.record)
-            do {
-                try self.viewContext.save()
-                self.navigationController?.popViewController(animated: true)
-            } catch {
-                print("Error deleting: \(error)")
-            }
+            PersistenceController.shared.save()
+            self.navigationController?.popViewController(animated: true)
         })
         present(alert, animated: true)
     }
