@@ -47,69 +47,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B57CE3922F9AB4CD0045E082 = {
-			isa = PBXGroup;
-			children = (
-				B57CE3E52F9AB8930045E082 /* Model.xcdatamodeld */,
-				B57CE3C82F9AB7050045E082 /* Views */,
-				B57CE3C72F9AB6FC0045E082 /* ViewControllers */,
-				B57CE3C62F9AB6F40045E082 /* Respositories */,
-				B57CE3C52F9AB6ED0045E082 /* Persistence */,
-				B57CE3C42F9AB6E50045E082 /* Models */,
-				B57CE3C32F9AB6BA0045E082 /* Helpers */,
-				B57CE39D2F9AB4CD0045E082 /* t3 */,
-				B57CE39C2F9AB4CD0045E082 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
+			B57CE3922F9AB4CD0045E082 = {
+				isa = PBXGroup;
+				children = (
+					B57CE3E52F9AB8930045E082 /* Model.xcdatamodeld */,
+					B57CE39D2F9AB4CD0045E082 /* t3 */,
+					B57CE39C2F9AB4CD0045E082 /* Products */,
+				);
+				sourceTree = "<group>";
+			};
 		B57CE39C2F9AB4CD0045E082 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				B57CE39B2F9AB4CD0045E082 /* t3.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B57CE3C32F9AB6BA0045E082 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		B57CE3C42F9AB6E50045E082 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		B57CE3C52F9AB6ED0045E082 /* Persistence */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Persistence;
-			sourceTree = "<group>";
-		};
-		B57CE3C62F9AB6F40045E082 /* Respositories */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Respositories;
-			sourceTree = "<group>";
-		};
-		B57CE3C72F9AB6FC0045E082 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		B57CE3C82F9AB7050045E082 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
