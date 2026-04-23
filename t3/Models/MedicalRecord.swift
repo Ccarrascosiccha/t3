@@ -1,6 +1,5 @@
 import CoreData
 
-@objc(Entity)
 final class MedicalRecord: NSManagedObject {
     @NSManaged var id: UUID?
     @NSManaged var fullName: String?
